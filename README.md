@@ -9,7 +9,7 @@ This repository contains two beginner-friendly Python projects.
 - Checks answers and calculates the final score.
 - Displays the quiz result at the end.
 
-File: ".py"
+File: "project2.py"
 
 2. Stone Paper Scissors Game
 
@@ -18,7 +18,7 @@ File: ".py"
 - The program checks the winner and updates the score.
 - Displays the final result when the game ends.
 
-File: "game.py"
+File: "project1.py"
 
 Technologies Used
 
@@ -38,12 +38,15 @@ How to Run
 
 4. Run the Quiz App:
    
-   "python quiz.py"
+   "python project2.py"
 
 5. Run the Stone Paper Scissors Game:
    
-   "python game.py"
+   "python project1.py"
 
 Author
 
-Student Python Projects
+Darshan Fatkare
+
+Skill BCA Student
+SOU
