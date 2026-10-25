@@ -1,10 +1,8 @@
 import random
 
-# Store player scores
 player_score = 0
 computer_score = 0
 
-# Available options
 choices = ["stone", "paper", "scissor"]
 
 print("===== STONE PAPER SCISSORS GAME =====")
@@ -13,20 +11,16 @@ print("Type 'exit' to stop the game.")
 
 while True:
 
-    # Computer selects a random option
     computer = random.choice(choices)
 
-    # Get player's choice
     player = input(
         "\nChoose stone, paper, scissor or exit: "
     ).strip().lower()
 
-    # Stop the game
     if player == "exit":
         print("\nThanks for playing!")
         break
 
-    # Check whether the choice is valid
     if player not in choices:
         print("Wrong input! Please try again.")
         continue
@@ -34,7 +28,6 @@ while True:
     print(f"Your choice: {player}")
     print(f"Computer choice: {computer}")
 
-    # Decide the winner
     if player == computer:
         print("It's a tie!")
 
@@ -50,12 +43,10 @@ while True:
         computer_score += 1
         print("Computer won this round!")
 
-    # Show updated scores
     print("\n----- CURRENT SCORE -----")
     print(f"Player: {player_score}")
     print(f"Computer: {computer_score}")
 
-# Show the final result
 print("\n===== FINAL RESULT =====")
 print(f"Your Total Score: {player_score}")
 print(f"Computer Total Score: {computer_score}")
